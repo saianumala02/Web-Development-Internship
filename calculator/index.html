@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Calculator</title>
+        <link rel="stylesheet" href="calstyles.css"/>
+    </head>
+    <body>
+    <div class="calculator">
+           <input type="text" id="display" class="display" readonly>
+        <div id="Buttons">
+            <button id="AC" onclick="clearAll()">AC</button>
+            <button id="del" onclick="del()">Del</button>
+            
+        </div>
+        <div class="keys">
+            <button onclick="addtodisplay('7')">7</button>
+            <button onclick="addtodisplay('8')">8</button>
+            <button onclick="addtodisplay('9')">9</button>
+            <button onclick="addtodisplay('/')">/</button>
+            <button onclick="addtodisplay('4')">4</button>
+            <button onclick="addtodisplay('5')">5</button>
+            <button onclick="addtodisplay('6')">6</button>
+            <button onclick="addtodisplay('*')">X</button>
+            <button onclick="addtodisplay('1')">1</button>
+            <button onclick="addtodisplay('2')">2</button>
+            <button onclick="addtodisplay('3')">3</button>
+            <button onclick="addtodisplay('-')">-</button>
+            <button onclick="addtodisplay('0')">0</button>
+            <button onclick="addtodisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="addtodisplay('+')">+</button>
+        </div>
+    </div>
+
+<script src="cal.js"></script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+body{
+    background-color:white;
+    margin:0px 435px 0px 435px;
+    max-width: 100vh;
+}
+.name{
+      margin:0px;
+      background-color: black;
+      padding-top:30px;
+}
+#v{
+    text-align:center;
+    color:white; 
+    font-size: 25px;
+    word-spacing: 0.2em;
+}
+#icon{
+     width:45px;
+     height:45px;
+     padding:49px 0px 40px 259px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 230px;
+    gap:2px;
+}
+
+#words{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    color:brown;
+    width: 94%;
+    height:19vh;
+    word-spacing:0.1em;
+    padding:40px 20px 0px;
+}
+#img2{
+    display: block;
+    height: 27vh;
+    width:28vh;
+    padding:0px 0px 12px 50px;
+}
+.div3{
+    text-align:justify;
+    word-spacing:0em;
+    font-size:10px;
+    color:white;
+    padding:15px 130px 60px 130px;
+    background-color: black;
+    
+}
+#bio{
+    font-size: 30px;
+    padding:0px 0px 7px 0px;
+}
+#p2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 9.7px;
+    padding-bottom: 25px;
+    
+}
+.div4{
+    padding:10px auto;
+    background-color: rgb(247, 244, 244);
+    width:300px;
+    height:2px;
+}
+#p3{
+    text-align:center;
+    font-size: 11px;
+}
